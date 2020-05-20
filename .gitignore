@@ -14,6 +14,7 @@ npm-*
 /.vscode
 
 # Build
+/build
 /dist
 /playground
 /benchmark
