@@ -2,22 +2,22 @@
 .DS_Store
 
 # NPM
-/node_modules
+node_modules
 npm-*
 
 # Testing
-/.nyc_output
-/coverage
+.nyc_output
+coverage
 
 # Editor
-/.idea
-/.vscode
+.idea
+.vscode
 
 # Build
-/build
-/dist
-/playground
-/benchmark
+build
+dist
+playground
+benchmark
 
 # Localization
-/translations
+translations
