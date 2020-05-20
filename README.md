@@ -19,6 +19,8 @@ The `message [PROP]` reporter has different formats for the types of data.
 
 The `when I receive a Discord message` hat also triggers on messages the bot sends, so it's important to be careful not to go into a reply loop. To check if a message was sent by the bot, use the builtin `[TEXT] contains [ITEM]?` boolean in the `Operators` tab and check if `[message [author]] contains [bot user id]?`
 
+Instead of hardcoding your token in the `start bot [TOKEN]` command block, you may want to use the builtin `ask [] and wait`/`answer` to input your token when you start the program.
+
 ## Thanks/Other Resources
 Since the documentation for making these extensions aren't that great, I relied heavily on looking at what others did before me. Here are some of the resources that helped.
 * Basically the only official documentation there is: [gh repo document](https://github.com/LLK/scratch-vm/blob/develop/docs/extensions.md)
